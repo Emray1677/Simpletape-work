@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0cm 1cm;
+    height: 1.7cm;
+    font-family: tahoma;
+    font-size: 0.39cm;
+    box-shadow: 1cm;
+}
+.nav_menu a {
+    text-decoration: none;
+    color: black;
+}
+.nav_menu a:hover {
+    text-decoration: underline;
+    
+}
+.nav_menu1 ul {
+    display: flex;
+    list-style: none;
+    gap: 0.6cm;
+    margin-top: 0.6cm;
+}
+.nav_menu2 ul {
+    display: flex;
+    list-style: none;
+    gap: 0.6cm;
+    margin-top: 0.6cm;
+}
+.nav_class {
+    height: 13.8cm;
+    margin: 0cm 0.23cm 3cm;
+    background-image: url(./images/Highlight-Copilot-Commercial_VP4-1399x600.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: tahoma;
+}
+.nav_class1 {
+    padding-top: 4cm;
+    padding-left: 2.5cm;
+    width: 10cm;
+}
+.nav_class1 p:nth-child(1) {
+    background-color: #FFB900;
+    width: 1.4cm;
+    height: 0.7cm;
+    margin-bottom: 0.5cm;
+    padding-left: 0.55cm;
+    padding-top: 0.15cm;
+    cursor: pointer;
+}
+.nav_class1 p:nth-child(2) {
+    font-size: 0.8cm;
+    margin-bottom: 0.5cm;
+    cursor: pointer;
+}
+.nav_class1 p:nth-child(3) {
+    cursor: pointer;
+    margin-bottom: 0.5cm;
+}
+.nav_class button {
+    height: 1.2cm;
+    width: 3cm;
+    background-color: #005CA5;
+    border: 0;
+}
+.nav_class button a {
+    text-decoration: none;
+    font-size: 0.4cm;
+    color: white;
+    font-weight: bold;
+}
+.nav_class button:hover {
+    background-color: #1b6cae;
+}
+.sect_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0cm 0.10cm 1cm;
+    margin-bottom: 3cm;
+}
+.sect_menu div {
+    width: 25%;
+}
+.sect_menu1 {
+    font-family: tahoma;
+    margin-left: 0.25cm;
+}
+.nav_class5 {
+    height: 13.8cm;
+    margin: 0cm 0.23cm 3cm;
+    background-image: url(./images/banah\ img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: tahoma;
+}
+.nav_class6 {
+    padding-top: 4cm;
+    padding-left: 2.5cm;
+    width: 10cm;
+}
+.nav_class6 p:nth-child(1) {
+    font-size: 0.9cm;
+    margin-bottom: 0.5cm;
+    cursor: pointer;
+    width: 9cm;
+}
+.nav_class6 p:nth-child(2) {
+    cursor: pointer;
+    margin-bottom: 0.5cm;
+}
+.nav_class5 button {
+    height: 1.2cm;
+    width: 3.5cm;
+    background-color: #005CA5;
+    border: 0;
+}
+.nav_class5 button a {
+    text-decoration: none;
+    font-size: 0.4cm;
+    color: white;
+    font-weight: bold;
+}
+.nav_class5 button:hover {
+    background-color: #1b6cae;
+}
+.footer_menu {
+    height: 11.72cm;
+    background-color: #F2F2F2;
+    margin: 0.5cm 0cm 0cm;
+    font-family: tahoma;
+}
+.footer_class {
+    display: flex;
+    gap: 2cm;
+    margin: 0cm 1.5cm;
+    padding-top: 1.4cm;
+}
+.footer_class h1 {
+  font-size: 0.45cm;
+  margin-bottom: 0.45cm;
+  color: rgb(97, 97, 97);;
+}
+.footer_class li {
+    list-style: none;
+    line-height: 2.5;
+    font-size: 0.35cm;
+    color: rgb(97, 97, 97);
+}
+.emdiv_menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.38cm;
+    margin: 1cm 0.8cm ;
+}
+.emdiv_menu1 ul {
+    display: flex;
+    gap: 0.6cm;
+}
+.emdiv_menu1 li {
+    list-style: none;
+    padding-bottom: 0.8cm;
+}
+.emdiv_menu1 a {
+    color:black;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+.emdiv_menu1 a:hover {
+    text-decoration: underline;
+}
