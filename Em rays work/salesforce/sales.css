@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav_class {
+    display: flex;
+    justify-content: space-between;
+    font-family: tahoma;
+    height: 2cm;
+    background-color: white;
+    position: fixed;
+    margin-top: -2.02cm;
+}
+.nav_classone ul {
+    display: flex;
+    gap: 0.4cm;
+    margin-top: 0.6cm;
+    margin-left: 0.5cm;
+}
+.nav_classone li {
+    list-style: none;
+    margin-left: 0.4cm;
+}
+.nav_classone a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(33, 32, 32);
+}
+.nav_classone a:hover {
+    color: #0176D3;
+}
+.nav_classtwo {
+    margin-left: 1cm;
+}
+.nav_classtwo ul {
+    display: flex;
+    gap: 0.6cm;
+    margin-top: 0.34cm;
+    margin-right: 0.8cm;
+}
+.nav_classtwo li {
+    margin-left: 0.4cm;
+    list-style: none;
+}
+.nav_classtwo li:nth-child(4) {
+    padding-top: 0.3cm;
+}
+.nav_classtwo button {
+    width: 2.8cm;
+    height: 1.2cm;
+    font-size: 0.4cm;
+    font-weight: bold;
+    border-radius: 0.15cm;
+    border: 0;
+    background-color: #2E844A;
+    color: white;
+    cursor: pointer;
+}
+.nav_classtwo button:hover {
+    background-color: #1C3326;
+}
+.sect_class {
+    display: flex;
+    justify-content: space-between;
+    height: 10cm;
+    background-image: url(./image/php-marquee-starter-lg-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0cm 0cm;
+    font-family: tahoma;
+    margin-top: 2cm;
+}
+.sect_class div {
+    width: 50%;
+}
+.sect_classone {
+    margin-top: 3cm;
+    margin-left: 1cm;
+}
+.sect_card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4cm 1.2cm;
+    gap: 0.7cm;
+}
+.sect_card div {
+    width: 33.3%;
+}
+.div_menu {
+    height: 10.5cm;
+    border-radius: 0.5cm;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.div_menu h2 {
+    margin: 0.5cm 0.3cm;
+    margin-bottom: 0.5cm;
+    font-size: 0.53cm;
+    width: 9cm;
+    color: #032D60;
+}
+.sect_twocard {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5cm 1cm;
+    font-family: tahoma;
+    gap: 0.4cm;
+}
+.sect_twocard div {
+    width: 25%;
+}
+.div_card {
+    height: 10.5cm;
+}
+.div_card h2 {
+    font-size: 0.5cm;
+    margin: 0.35cm 0cm;
+    color: #032D60;
+}
+.div_card p {
+    font-size: 0.4cm;
+    width: 7cm;
+    margin-bottom: 0.45cm;
+    color: #353333;
+}
+.sect_industy {
+    text-align: center;
+    margin-bottom: 2cm;
+}
+.div_class {
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+    margin: 1cm 0cm;
+    height: 8cm;
+    background-image: url(./image/hp-industries-page-break-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div_class div {
+    height: 5.2cm;
+    width: 4.8cm;
+    font-family: tahoma;
+    line-height: 1.2;
+}
+.div_classone img {
+    width: 1.8cm;
+    padding: 0.5cm;
+    border-radius: 2cm;
+    box-shadow: 6px 5px 8px 2px rgb(219, 212, 212);
+    background-color: white;
+    margin-bottom: 0.25cm;
+}
+.sect_customer {
+    display: flex;
+    justify-content: center;
+    gap: 0.75cm;
+    margin: 1cm 0cm;
+}
+.sect_customer img {
+    width: 4cm;
+    height: 2.4cm;
+    padding: 0.6cm;
+    border-radius: 0.5cm;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.sect_cardtwo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.4cm 1.2cm;
+    gap: 0.7cm;
+}
+.sect_cardtwo div {
+    width: 30%;
+}
+.div_menuone {
+    height: 12cm;
+    border-radius: 0.5cm;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.div_menuone h2 {
+    margin: 0.5cm 0.3cm;
+    margin-bottom: 0.5cm;
+    font-size: 0.53cm;
+    width: 9cm;
+    color: #032D60;
+}
+.sect_classthree {
+    display: flex;
+    justify-content: space-between;
+    height: 10cm;
+    margin-bottom: 2cm;
+    font-family: tahoma;
+    margin-top: 2cm;
+}
+.sect_classthree div {
+    width: 50%;
+}
+.sect_classfour {
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+.sect_cardten {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.4cm 1.2cm;
+    gap: 0.7cm;
+    height: 17cm;
+    background-image: url(./image/4444.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:bottom ;
+}
+.sect_cardten div {
+    width: 32%;
+    background-color: white;
+}
+.div_menunine {
+    height: 13.7cm;
+    border-radius: 0.5cm;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.div_menunine h2 {
+    margin: 0.5cm 0.3cm;
+    margin-bottom: 0.5cm;
+    font-size: 0.53cm;
+    width: 9cm;
+    color: #032D60;
+}
+.sect_cardtenw {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.4cm 1.2cm;
+    gap: 0.7cm;
+}
+.sect_cardtenw div {
+    width: 32%;
+    background-color: white;
+}
+.div_menuninew {
+    height: 13.7cm;
+    border-radius: 0.5cm;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.div_menuninew h2 {
+    margin: 0.5cm 0.3cm;
+    margin-bottom: 0.5cm;
+    font-size: 0.53cm;
+    width: 9cm;
+    color: #032D60;
+}
+
+.sect_cardtenq {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.4cm 1.2cm;
+    gap: 0.7cm;
+}
+.sect_cardtenq div {
+    width: 32%;
+    background-color: white;
+}
+.div_menunineq {
+    height: 5.4cm;
+    border-radius: 0.5cm;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(212, 206, 206);
+}
+.div_menunineq h2 {
+    font-size: 0.8cm;
+    width: 9cm;
+    color: #032D60;
+}
+
+.sect_classthreeg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2cm;
+    font-family: tahoma;
+    margin-top: 0.5cm;
+}
+.sect_classthreeg div {
+    width: 50%;
+}
+.sect_classfourg {
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.sect_classthreey {
+    display: flex;
+    justify-content: space-between;
+    margin: 0cm 0.9cm 2cm;
+    height: 15cm;
+    border-radius: 1cm;
+    border: 0;
+    font-family: tahoma;
+    box-shadow: 3px 3px 5px 3px rgb(176, 170, 170);
+    background-color: white;
+}
+.sect_classthreey div {
+    width: 50%;
+}
+.sect_classfoury {
+    margin-top: 0.3cm;
+    margin-left: 1cm;
+}
+.foot_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0cm 2cm 1cm 1cm;
+    height: 10.7cm;
+    font-family: tahoma;
+}
+.foot_classtwo {
+    display: flex;
+    gap: 2cm;
+    line-height: 2.5;
+    margin-right: 1cm;
+}
+.foot_classtwo li {
+    list-style: none;
+    font-size: 0.38cm;
+}
+.foot_classtwo a {
+    text-decoration: none;
+    color: #0B5CAE;
+    font-size: 0.3;
+}
+.foot_classtwo a:hover {
+    text-decoration: underline;
+    color: #3987d6;
+}
+.foot_classtwo h3 {
+    font-size: 0.4cm;
+    margin: 0.5cm 0cm 0.2cm;
+}
+.footer_down {
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+    height: 4cm;
+    margin-bottom: 0.5cm;
+    font-family: tahoma;
+    color: white;
+    background-color: #032E61;
+}
+.footer_downtwo {
+    width: 20cm;
+    margin-right: -5cm;
+    line-height: 1.6;
+    margin-top: 0.3cm;
+}
+.footer_downtwo a {
+    color: white;
+    font-size: 0.38cm;
+    margin-right: 0.4cm;
+}
+.footer_downtwo a:hover {
+    color: #3987d6;
+}
