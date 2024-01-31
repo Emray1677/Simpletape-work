@@ -172,4 +172,5 @@
 }
 .emdiv_menu1 a:hover {
     text-decoration: underline;
+    grid-template-columns: repeat(1,3fra);
 }
